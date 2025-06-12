@@ -9,24 +9,24 @@ emojis.forEach(emoji => {
 
     switch(mood) {
       case "happy":
-        text = "Awesome! Stay joyful 🌞";
+        text = "Yay! Keep smiling 😄";
         bg = "#ffeaa7";
         break;
-      case "sad":
-        text = "Sending you a big virtual hug 💙";
-        bg = "#74b9ff";
-        break;
-      case "tired":
-        text = "Take a nap or have a tea break ☕";
+      case "neutral":
+        text = "Just another day? Stay steady 😐";
         bg = "#dfe6e9";
         break;
+      case "sad":
+        text = "It's okay to feel down 💙";
+        bg = "#74b9ff";
+        break;
       case "angry":
-        text = "Breathe in... breathe out 🧘‍♀️";
+        text = "Take a deep breath 🧘‍♂️";
         bg = "#fab1a0";
         break;
-      case "excited":
-        text = "Keep the energy flowing 🚀";
-        bg = "#ffbe76";
+      case "tired":
+        text = "Rest up! You deserve it 😴";
+        bg = "#b2bec3";
         break;
     }
 
